@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sdrgq345ge5gfefefefef/static/css/main.73e7da0c.css",
+    "main.js": "/sdrgq345ge5gfefefefef/static/js/main.ff15c00d.js",
+    "static/js/787.af40ec67.chunk.js": "/sdrgq345ge5gfefefefef/static/js/787.af40ec67.chunk.js",
+    "static/media/bg1.png": "/sdrgq345ge5gfefefefef/static/media/bg1.b3c2e4772b4d8623d40d.png",
+    "static/media/bg2.png": "/sdrgq345ge5gfefefefef/static/media/bg2.1a1705411d7da64ae90a.png",
+    "index.html": "/sdrgq345ge5gfefefefef/index.html",
+    "static/media/Circe-Bold.woff": "/sdrgq345ge5gfefefefef/static/media/Circe-Bold.ed610c77eb31ef2410d2.woff",
+    "static/media/Circe.woff": "/sdrgq345ge5gfefefefef/static/media/Circe.b0f9e2aff05f6952a878.woff",
+    "main.73e7da0c.css.map": "/sdrgq345ge5gfefefefef/static/css/main.73e7da0c.css.map",
+    "main.ff15c00d.js.map": "/sdrgq345ge5gfefefefef/static/js/main.ff15c00d.js.map",
+    "787.af40ec67.chunk.js.map": "/sdrgq345ge5gfefefefef/static/js/787.af40ec67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73e7da0c.css",
+    "static/js/main.ff15c00d.js"
+  ]
+}

@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Circe';
+    src: local('☺'), url('../fonts/Circe-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: local('☺'), url('../fonts/Circe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (min-device-height: 0px)
+and (max-device-height: 550px) {
+    .header{
+        background: url("../img/bg1.png") no-repeat;
+        background-size: cover;
+        padding-bottom: 75%;
+    }
+}
+
+.header{
+    height: 100vh;
+
+    background: url("../img/bg1.png") no-repeat;
+    background-size: cover;
+}
+
+.main-background{
+    background: linear-gradient(180deg, rgba(20,31,47,1) 0%, rgb(67, 122, 144) 40%, rgba(20,31,47,1) 100%);
+}
+
+.footer-background{
+    height: 70vh;
+    background: url("../img/bg2.png") no-repeat;
+    background-size: cover;
+}
+
+
+.btn-hover{
+    color: white;
+    border: 1px solid transparent ;
+}
+.btn-hover:hover{
+    border-color:white;
+}
+.button:hover{
+    color: white;
+    box-shadow: inset 0 9999px 9999px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.btn-outline-success{
+    color: #a2ee93;
+    border-color: #9bee8e;
+}
+
+.btn-line-bold{
+    border-width: 3px;
+}
+
+.font-Circe{
+    font-family: "Circe";
+}
+
+
+.grad{
+    background: linear-gradient(90deg, rgb(86, 237, 45) 0%, rgb(68, 67, 229) 100%);
+    height: 6px;
+}
+
+.footerBackground{
+    background-color: rgba(20,31,47,1);
+}
+
+.text-light-gray{
+    color: rgb(173, 202, 195);
+}
+
+.contactForm{ /*стиль контактной формы*/
+    padding: 6px;
+    resize: none;
+    border: none;
+    background-color: rgb(244, 247, 251);
+}
+
+
+.procent{
+    background-color: white;
+    color: salmon;
+    border-radius: 25px;
+}
+
+.formLine {
+    background-image: url("../img/ribbon.png");
+    height: 6px;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+sup{
+    background-color: salmon;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    font-family: "Circe";
+}
+img.columnsImg{
+    width: 250px;
+    height: 250px;
+}
+
+table,td{
+    table-layout: fixed;
+    text-align: center;
+    font-size: 8px;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
+td:nth-child(1) {
+    color: cornflowerblue;
+}
+td:nth-child(2) {
+    color: darkgray;
+}
+td:nth-child(3) {
+    color: darkseagreen;
+
+}
